@@ -6,6 +6,7 @@ Description: Landing zone sizing tool based on GPS accuracy
 
 import matplotlib.pyplot as plt
 import numpy as np
+from src.helpers.path import path
 
 # get GPS circle
 gps_acc = 5  # meters
@@ -48,6 +49,6 @@ plt.plot(fov_all_x, fov_all_y, color="maroon", label="Required FOV")
 plt.grid(linestyle="--")
 plt.xlabel("X Planar Coordinate [m]")
 plt.ylabel("Y Planar Coordinate [m]")
-plt.savefig("landing_zone.pdf")
 plt.legend(loc="lower left", framealpha=0.9)
+plt.savefig(path + "/src/plots/landing_zone.pdf")
 plt.show()
