@@ -1,0 +1,1 @@
+/home/pcampolucci/Desktop/autonomy/devel/.private/darknet_ros_msgs/share/darknet_ros_msgs/msg/CheckForObjectsActionFeedback.msg

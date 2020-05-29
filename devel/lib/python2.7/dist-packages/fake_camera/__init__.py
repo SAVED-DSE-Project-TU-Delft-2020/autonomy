@@ -1,0 +1,1 @@
+/home/pcampolucci/Desktop/autonomy/devel/.private/fake_camera/lib/python2.7/dist-packages/fake_camera/__init__.py

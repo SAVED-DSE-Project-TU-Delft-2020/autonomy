@@ -1,1 +1,3 @@
 venv/
+src/perception/video_to_ros/rosbags/*
+src/perception/video_to_ros/videos/*

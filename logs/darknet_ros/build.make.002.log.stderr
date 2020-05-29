@@ -1,0 +1,11 @@
+/home/pcampolucci/Desktop/autonomy/src/perception/darknet_ros/darknet/src/gemm.c: In function ‘time_gpu’:
+/home/pcampolucci/Desktop/autonomy/src/perception/darknet_ros/darknet/src/gemm.c:232:9: warning: ‘cudaThreadSynchronize’ is deprecated [-Wdeprecated-declarations]
+         cudaThreadSynchronize();
+         ^~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/local/cuda/include/cuda_runtime.h:96:0,
+                 from /home/pcampolucci/Desktop/autonomy/src/perception/darknet_ros/darknet/include/darknet.h:14,
+                 from /home/pcampolucci/Desktop/autonomy/src/perception/darknet_ros/darknet/src/utils.h:5,
+                 from /home/pcampolucci/Desktop/autonomy/src/perception/darknet_ros/darknet/src/gemm.c:2:
+/usr/local/cuda/include/cuda_runtime_api.h:947:57: note: declared here
+ extern __CUDA_DEPRECATED __host__ cudaError_t CUDARTAPI cudaThreadSynchronize(void);
+                                                         ^~~~~~~~~~~~~~~~~~~~~

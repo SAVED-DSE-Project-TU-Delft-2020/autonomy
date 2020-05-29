@@ -1,0 +1,4 @@
+Symlinking /home/pcampolucci/Desktop/autonomy/devel/lib/pkgconfig/fake_camera.pc
+Symlinking /home/pcampolucci/Desktop/autonomy/devel/lib/python2.7/dist-packages/fake_camera/__init__.py
+Symlinking /home/pcampolucci/Desktop/autonomy/devel/share/fake_camera/cmake/fake_cameraConfig.cmake
+Symlinking /home/pcampolucci/Desktop/autonomy/devel/share/fake_camera/cmake/fake_cameraConfig-version.cmake

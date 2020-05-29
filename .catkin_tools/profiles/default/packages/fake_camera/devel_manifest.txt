@@ -1,0 +1,6 @@
+fake_camera
+/home/pcampolucci/Desktop/autonomy/devel/.private/fake_camera/cmake.lock /home/pcampolucci/Desktop/autonomy/devel/./cmake.lock
+/home/pcampolucci/Desktop/autonomy/devel/.private/fake_camera/lib/pkgconfig/fake_camera.pc /home/pcampolucci/Desktop/autonomy/devel/lib/pkgconfig/fake_camera.pc
+/home/pcampolucci/Desktop/autonomy/devel/.private/fake_camera/lib/python2.7/dist-packages/fake_camera/__init__.py /home/pcampolucci/Desktop/autonomy/devel/lib/python2.7/dist-packages/fake_camera/__init__.py
+/home/pcampolucci/Desktop/autonomy/devel/.private/fake_camera/share/fake_camera/cmake/fake_cameraConfig.cmake /home/pcampolucci/Desktop/autonomy/devel/share/fake_camera/cmake/fake_cameraConfig.cmake
+/home/pcampolucci/Desktop/autonomy/devel/.private/fake_camera/share/fake_camera/cmake/fake_cameraConfig-version.cmake /home/pcampolucci/Desktop/autonomy/devel/share/fake_camera/cmake/fake_cameraConfig-version.cmake

@@ -1,0 +1,6 @@
+set(fake_camera_SETUP_PY_VERSION "0.0.0")
+set(fake_camera_SETUP_PY_SCRIPTS "")
+set(fake_camera_SETUP_PY_PACKAGES "fake_camera")
+set(fake_camera_SETUP_PY_PACKAGE_DIRS "scripts/fake_camera")
+set(fake_camera_SETUP_PY_MODULES "")
+set(fake_camera_SETUP_PY_MODULE_DIRS "")

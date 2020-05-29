@@ -1,0 +1,8 @@
+prefix=/home/pcampolucci/Desktop/autonomy/install
+
+Name: video_stream_opencv
+Description: Description of video_stream_opencv
+Version: 1.1.5
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: 
