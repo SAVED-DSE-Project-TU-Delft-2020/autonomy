@@ -1,0 +1,6 @@
+[submodule "src/perception/video_stream_opencv"]
+	path = src/perception/video_stream_opencv
+	url = git@github.com:SAVED-DSE-Project-TU-Delft-2020/video_stream_opencv.git
+[submodule "src/perception/darknet_ros"]
+	path = src/perception/darknet_ros
+	url = git@github.com:SAVED-DSE-Project-TU-Delft-2020/darknet_ros.git
