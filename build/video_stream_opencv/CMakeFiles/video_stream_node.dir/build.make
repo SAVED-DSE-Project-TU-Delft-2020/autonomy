@@ -43,7 +43,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pcampolucci/Desktop/autonomy/src/perception/video_stream_opencv
+CMAKE_SOURCE_DIR = /home/pcampolucci/Desktop/autonomy/src/perception/video_to_ros/video_stream_opencv
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/pcampolucci/Desktop/autonomy/build/video_stream_opencv
@@ -58,17 +58,17 @@ include CMakeFiles/video_stream_node.dir/progress.make
 include CMakeFiles/video_stream_node.dir/flags.make
 
 CMakeFiles/video_stream_node.dir/src/video_stream_node.cpp.o: CMakeFiles/video_stream_node.dir/flags.make
-CMakeFiles/video_stream_node.dir/src/video_stream_node.cpp.o: /home/pcampolucci/Desktop/autonomy/src/perception/video_stream_opencv/src/video_stream_node.cpp
+CMakeFiles/video_stream_node.dir/src/video_stream_node.cpp.o: /home/pcampolucci/Desktop/autonomy/src/perception/video_to_ros/video_stream_opencv/src/video_stream_node.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pcampolucci/Desktop/autonomy/build/video_stream_opencv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/video_stream_node.dir/src/video_stream_node.cpp.o"
-	/usr/lib/ccache/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/video_stream_node.dir/src/video_stream_node.cpp.o -c /home/pcampolucci/Desktop/autonomy/src/perception/video_stream_opencv/src/video_stream_node.cpp
+	/usr/lib/ccache/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/video_stream_node.dir/src/video_stream_node.cpp.o -c /home/pcampolucci/Desktop/autonomy/src/perception/video_to_ros/video_stream_opencv/src/video_stream_node.cpp
 
 CMakeFiles/video_stream_node.dir/src/video_stream_node.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/video_stream_node.dir/src/video_stream_node.cpp.i"
-	/usr/lib/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pcampolucci/Desktop/autonomy/src/perception/video_stream_opencv/src/video_stream_node.cpp > CMakeFiles/video_stream_node.dir/src/video_stream_node.cpp.i
+	/usr/lib/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pcampolucci/Desktop/autonomy/src/perception/video_to_ros/video_stream_opencv/src/video_stream_node.cpp > CMakeFiles/video_stream_node.dir/src/video_stream_node.cpp.i
 
 CMakeFiles/video_stream_node.dir/src/video_stream_node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/video_stream_node.dir/src/video_stream_node.cpp.s"
-	/usr/lib/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pcampolucci/Desktop/autonomy/src/perception/video_stream_opencv/src/video_stream_node.cpp -o CMakeFiles/video_stream_node.dir/src/video_stream_node.cpp.s
+	/usr/lib/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pcampolucci/Desktop/autonomy/src/perception/video_to_ros/video_stream_opencv/src/video_stream_node.cpp -o CMakeFiles/video_stream_node.dir/src/video_stream_node.cpp.s
 
 CMakeFiles/video_stream_node.dir/src/video_stream_node.cpp.o.requires:
 
@@ -146,6 +146,6 @@ CMakeFiles/video_stream_node.dir/clean:
 .PHONY : CMakeFiles/video_stream_node.dir/clean
 
 CMakeFiles/video_stream_node.dir/depend:
-	cd /home/pcampolucci/Desktop/autonomy/build/video_stream_opencv && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pcampolucci/Desktop/autonomy/src/perception/video_stream_opencv /home/pcampolucci/Desktop/autonomy/src/perception/video_stream_opencv /home/pcampolucci/Desktop/autonomy/build/video_stream_opencv /home/pcampolucci/Desktop/autonomy/build/video_stream_opencv /home/pcampolucci/Desktop/autonomy/build/video_stream_opencv/CMakeFiles/video_stream_node.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/pcampolucci/Desktop/autonomy/build/video_stream_opencv && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pcampolucci/Desktop/autonomy/src/perception/video_to_ros/video_stream_opencv /home/pcampolucci/Desktop/autonomy/src/perception/video_to_ros/video_stream_opencv /home/pcampolucci/Desktop/autonomy/build/video_stream_opencv /home/pcampolucci/Desktop/autonomy/build/video_stream_opencv /home/pcampolucci/Desktop/autonomy/build/video_stream_opencv/CMakeFiles/video_stream_node.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/video_stream_node.dir/depend
 

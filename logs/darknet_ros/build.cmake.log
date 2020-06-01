@@ -1,8 +1,45 @@
 Not searching for unused variables given on the command line.
+[36m--[0m The C compiler identification is GNU 7.5.0
+[36m--[0m The CXX compiler identification is GNU 7.5.0
+[36m--[0m Check for working C compiler: /usr/lib/ccache/cc
+[36m--[0m Check for working C compiler: /usr/lib/ccache/cc -- works
+[36m--[0m Detecting C compiler ABI info
+[36m--[0m Detecting C compiler ABI info - done
+[36m--[0m Detecting C compile features
+[36m--[0m Detecting C compile features - done
+[36m--[0m Check for working CXX compiler: /usr/lib/ccache/c++
+[36m--[0m Check for working CXX compiler: /usr/lib/ccache/c++ -- works
+[36m--[0m Detecting CXX compiler ABI info
+[36m--[0m Detecting CXX compiler ABI info - done
+[36m--[0m Detecting CXX compile features
+[36m--[0m Detecting CXX compile features - done
 [36m--[0m Darknet path dir = /home/pcampolucci/Desktop/autonomy/src/perception/darknet_ros/darknet
+[36m--[0m Looking for pthread.h
+[36m--[0m Looking for pthread.h - found
+[36m--[0m Looking for pthread_create
+[36m--[0m Looking for pthread_create - not found
+[36m--[0m Looking for pthread_create in pthreads
+[36m--[0m Looking for pthread_create in pthreads - not found
+[36m--[0m Looking for pthread_create in pthread
+[36m--[0m Looking for pthread_create in pthread - found
+[36m--[0m Found Threads: TRUE
+[36m--[0m Found CUDA: /usr/local/cuda (found version "10.0")
 [36m--[0m CUDA Version:
 [36m--[0m CUDA Libararies: /usr/local/cuda/lib64/libcudart_static.a;-lpthread;dl;/usr/lib/x86_64-linux-gnu/librt.so
 [36m--[0m Searching for X11...
+[36m--[0m Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[36m--[0m Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[36m--[0m Looking for gethostbyname
+[36m--[0m Looking for gethostbyname - found
+[36m--[0m Looking for connect
+[36m--[0m Looking for connect - found
+[36m--[0m Looking for remove
+[36m--[0m Looking for remove - found
+[36m--[0m Looking for shmat
+[36m--[0m Looking for shmat - found
+[36m--[0m Looking for IceConnectionNumber in ICE
+[36m--[0m Looking for IceConnectionNumber in ICE - found
+[36m--[0m Found X11: /usr/lib/x86_64-linux-gnu/libX11.so
 [36m--[0m  X11_INCLUDE_DIR: /usr/include
 [36m--[0m  X11_LIBRARIES: /usr/lib/x86_64-linux-gnu/libSM.so/usr/lib/x86_64-linux-gnu/libICE.so/usr/lib/x86_64-linux-gnu/libX11.so/usr/lib/x86_64-linux-gnu/libXext.so
 [36m--[0m Boost version: 1.65.1
@@ -12,9 +49,10 @@ Not searching for unused variables given on the command line.
 [36m--[0m   system
 [36m--[0m   date_time
 [36m--[0m   atomic
+[36m--[0m Found OpenCV: /usr (found version "3.2.0")
 [36m--[0m Using CATKIN_DEVEL_PREFIX: /home/pcampolucci/Desktop/autonomy/devel/.private/darknet_ros
-[36m--[0m Using CMAKE_PREFIX_PATH: /home/pcampolucci/Desktop/autonomy/devel;/home/pcampolucci/saved/devel;/opt/ros/melodic
-[36m--[0m This workspace overlays: /home/pcampolucci/Desktop/autonomy/devel;/home/pcampolucci/saved/devel;/opt/ros/melodic
+[36m--[0m Using CMAKE_PREFIX_PATH: /home/pcampolucci/Desktop/autonomy/devel;/opt/ros/melodic
+[36m--[0m This workspace overlays: /home/pcampolucci/Desktop/autonomy/devel;/opt/ros/melodic
 [36m--[0m Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2")
 [36m--[0m Using PYTHON_EXECUTABLE: /usr/bin/python2
 [36m--[0m Using Debian Python package layout

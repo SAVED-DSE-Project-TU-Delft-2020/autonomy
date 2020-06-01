@@ -43,7 +43,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pcampolucci/Desktop/autonomy/src/perception/video_stream_opencv
+CMAKE_SOURCE_DIR = /home/pcampolucci/Desktop/autonomy/src/perception/video_to_ros/video_stream_opencv
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/pcampolucci/Desktop/autonomy/build/video_stream_opencv
@@ -67,6 +67,6 @@ CMakeFiles/dynamic_reconfigure_gencfg.dir/clean:
 .PHONY : CMakeFiles/dynamic_reconfigure_gencfg.dir/clean
 
 CMakeFiles/dynamic_reconfigure_gencfg.dir/depend:
-	cd /home/pcampolucci/Desktop/autonomy/build/video_stream_opencv && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pcampolucci/Desktop/autonomy/src/perception/video_stream_opencv /home/pcampolucci/Desktop/autonomy/src/perception/video_stream_opencv /home/pcampolucci/Desktop/autonomy/build/video_stream_opencv /home/pcampolucci/Desktop/autonomy/build/video_stream_opencv /home/pcampolucci/Desktop/autonomy/build/video_stream_opencv/CMakeFiles/dynamic_reconfigure_gencfg.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/pcampolucci/Desktop/autonomy/build/video_stream_opencv && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pcampolucci/Desktop/autonomy/src/perception/video_to_ros/video_stream_opencv /home/pcampolucci/Desktop/autonomy/src/perception/video_to_ros/video_stream_opencv /home/pcampolucci/Desktop/autonomy/build/video_stream_opencv /home/pcampolucci/Desktop/autonomy/build/video_stream_opencv /home/pcampolucci/Desktop/autonomy/build/video_stream_opencv/CMakeFiles/dynamic_reconfigure_gencfg.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/dynamic_reconfigure_gencfg.dir/depend
 

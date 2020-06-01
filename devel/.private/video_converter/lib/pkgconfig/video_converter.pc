@@ -1,8 +1,0 @@
-prefix=/home/pcampolucci/Desktop/autonomy/devel/.private/video_converter
-
-Name: video_converter
-Description: Description of video_converter
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

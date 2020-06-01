@@ -1,4 +1,4 @@
-# Install script for directory: /home/pcampolucci/Desktop/autonomy/src/perception/video_stream_opencv
+# Install script for directory: /home/pcampolucci/Desktop/autonomy/src/perception/video_to_ros/video_stream_opencv
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -156,7 +156,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/video_stream_opencv" TYPE FILE FILES "/home/pcampolucci/Desktop/autonomy/src/perception/video_stream_opencv/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/video_stream_opencv" TYPE FILE FILES "/home/pcampolucci/Desktop/autonomy/src/perception/video_to_ros/video_stream_opencv/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -200,18 +200,18 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/video_stream_opencv" TYPE PROGRAM FILES "/home/pcampolucci/Desktop/autonomy/src/perception/video_stream_opencv/scripts/test_video_resource.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/video_stream_opencv" TYPE PROGRAM FILES "/home/pcampolucci/Desktop/autonomy/src/perception/video_to_ros/video_stream_opencv/scripts/test_video_resource.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/video_stream_opencv" TYPE DIRECTORY FILES
-    "/home/pcampolucci/Desktop/autonomy/src/perception/video_stream_opencv/launch"
-    "/home/pcampolucci/Desktop/autonomy/src/perception/video_stream_opencv/test"
+    "/home/pcampolucci/Desktop/autonomy/src/perception/video_to_ros/video_stream_opencv/launch"
+    "/home/pcampolucci/Desktop/autonomy/src/perception/video_to_ros/video_stream_opencv/test"
     USE_SOURCE_PERMISSIONS)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/video_stream_opencv" TYPE FILE FILES "/home/pcampolucci/Desktop/autonomy/src/perception/video_stream_opencv/nodelet_plugins.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/video_stream_opencv" TYPE FILE FILES "/home/pcampolucci/Desktop/autonomy/src/perception/video_to_ros/video_stream_opencv/nodelet_plugins.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)

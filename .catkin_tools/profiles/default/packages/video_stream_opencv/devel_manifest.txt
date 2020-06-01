@@ -1,4 +1,4 @@
-perception/video_stream_opencv
+perception/video_to_ros/video_stream_opencv
 /home/pcampolucci/Desktop/autonomy/devel/.private/video_stream_opencv/cmake.lock /home/pcampolucci/Desktop/autonomy/devel/./cmake.lock
 /home/pcampolucci/Desktop/autonomy/devel/.private/video_stream_opencv/lib/libvideo_stream_opencv.so /home/pcampolucci/Desktop/autonomy/devel/lib/libvideo_stream_opencv.so
 /home/pcampolucci/Desktop/autonomy/devel/.private/video_stream_opencv/lib/pkgconfig/video_stream_opencv.pc /home/pcampolucci/Desktop/autonomy/devel/lib/pkgconfig/video_stream_opencv.pc

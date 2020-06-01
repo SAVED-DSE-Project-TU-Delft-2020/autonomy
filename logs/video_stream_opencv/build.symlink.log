@@ -1,12 +1,12 @@
-Linked: (/home/pcampolucci/Desktop/autonomy/devel/.private/video_stream_opencv/lib/libvideo_stream_opencv.so, /home/pcampolucci/Desktop/autonomy/devel/lib/libvideo_stream_opencv.so)
-Linked: (/home/pcampolucci/Desktop/autonomy/devel/.private/video_stream_opencv/lib/pkgconfig/video_stream_opencv.pc, /home/pcampolucci/Desktop/autonomy/devel/lib/pkgconfig/video_stream_opencv.pc)
-Linked: (/home/pcampolucci/Desktop/autonomy/devel/.private/video_stream_opencv/lib/video_stream_opencv/video_stream, /home/pcampolucci/Desktop/autonomy/devel/lib/video_stream_opencv/video_stream)
-Linked: (/home/pcampolucci/Desktop/autonomy/devel/.private/video_stream_opencv/lib/python2.7/dist-packages/video_stream_opencv/__init__.py, /home/pcampolucci/Desktop/autonomy/devel/lib/python2.7/dist-packages/video_stream_opencv/__init__.py)
-Linked: (/home/pcampolucci/Desktop/autonomy/devel/.private/video_stream_opencv/lib/python2.7/dist-packages/video_stream_opencv/cfg/VideoStreamConfig.py, /home/pcampolucci/Desktop/autonomy/devel/lib/python2.7/dist-packages/video_stream_opencv/cfg/VideoStreamConfig.py)
-Linked: (/home/pcampolucci/Desktop/autonomy/devel/.private/video_stream_opencv/lib/python2.7/dist-packages/video_stream_opencv/cfg/__init__.py, /home/pcampolucci/Desktop/autonomy/devel/lib/python2.7/dist-packages/video_stream_opencv/cfg/__init__.py)
-Linked: (/home/pcampolucci/Desktop/autonomy/devel/.private/video_stream_opencv/include/video_stream_opencv/VideoStreamConfig.h, /home/pcampolucci/Desktop/autonomy/devel/include/video_stream_opencv/VideoStreamConfig.h)
-Linked: (/home/pcampolucci/Desktop/autonomy/devel/.private/video_stream_opencv/share/video_stream_opencv/docs/VideoStreamConfig.wikidoc, /home/pcampolucci/Desktop/autonomy/devel/share/video_stream_opencv/docs/VideoStreamConfig.wikidoc)
-Linked: (/home/pcampolucci/Desktop/autonomy/devel/.private/video_stream_opencv/share/video_stream_opencv/docs/VideoStreamConfig.dox, /home/pcampolucci/Desktop/autonomy/devel/share/video_stream_opencv/docs/VideoStreamConfig.dox)
-Linked: (/home/pcampolucci/Desktop/autonomy/devel/.private/video_stream_opencv/share/video_stream_opencv/docs/VideoStreamConfig-usage.dox, /home/pcampolucci/Desktop/autonomy/devel/share/video_stream_opencv/docs/VideoStreamConfig-usage.dox)
-Linked: (/home/pcampolucci/Desktop/autonomy/devel/.private/video_stream_opencv/share/video_stream_opencv/cmake/video_stream_opencvConfig.cmake, /home/pcampolucci/Desktop/autonomy/devel/share/video_stream_opencv/cmake/video_stream_opencvConfig.cmake)
-Linked: (/home/pcampolucci/Desktop/autonomy/devel/.private/video_stream_opencv/share/video_stream_opencv/cmake/video_stream_opencvConfig-version.cmake, /home/pcampolucci/Desktop/autonomy/devel/share/video_stream_opencv/cmake/video_stream_opencvConfig-version.cmake)
+Symlinking /home/pcampolucci/Desktop/autonomy/devel/lib/libvideo_stream_opencv.so
+Symlinking /home/pcampolucci/Desktop/autonomy/devel/lib/pkgconfig/video_stream_opencv.pc
+Symlinking /home/pcampolucci/Desktop/autonomy/devel/lib/video_stream_opencv/video_stream
+Symlinking /home/pcampolucci/Desktop/autonomy/devel/lib/python2.7/dist-packages/video_stream_opencv/__init__.py
+Symlinking /home/pcampolucci/Desktop/autonomy/devel/lib/python2.7/dist-packages/video_stream_opencv/cfg/VideoStreamConfig.py
+Symlinking /home/pcampolucci/Desktop/autonomy/devel/lib/python2.7/dist-packages/video_stream_opencv/cfg/__init__.py
+Symlinking /home/pcampolucci/Desktop/autonomy/devel/include/video_stream_opencv/VideoStreamConfig.h
+Symlinking /home/pcampolucci/Desktop/autonomy/devel/share/video_stream_opencv/docs/VideoStreamConfig.wikidoc
+Symlinking /home/pcampolucci/Desktop/autonomy/devel/share/video_stream_opencv/docs/VideoStreamConfig.dox
+Symlinking /home/pcampolucci/Desktop/autonomy/devel/share/video_stream_opencv/docs/VideoStreamConfig-usage.dox
+Symlinking /home/pcampolucci/Desktop/autonomy/devel/share/video_stream_opencv/cmake/video_stream_opencvConfig.cmake
+Symlinking /home/pcampolucci/Desktop/autonomy/devel/share/video_stream_opencv/cmake/video_stream_opencvConfig-version.cmake

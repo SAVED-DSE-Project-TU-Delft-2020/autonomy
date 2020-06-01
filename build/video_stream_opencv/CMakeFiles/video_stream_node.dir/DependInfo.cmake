@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/pcampolucci/Desktop/autonomy/src/perception/video_stream_opencv/src/video_stream_node.cpp" "/home/pcampolucci/Desktop/autonomy/build/video_stream_opencv/CMakeFiles/video_stream_node.dir/src/video_stream_node.cpp.o"
+  "/home/pcampolucci/Desktop/autonomy/src/perception/video_to_ros/video_stream_opencv/src/video_stream_node.cpp" "/home/pcampolucci/Desktop/autonomy/build/video_stream_opencv/CMakeFiles/video_stream_node.dir/src/video_stream_node.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

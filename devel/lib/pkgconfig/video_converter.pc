@@ -1,1 +1,0 @@
-/home/pcampolucci/Desktop/autonomy/devel/.private/video_converter/lib/pkgconfig/video_converter.pc

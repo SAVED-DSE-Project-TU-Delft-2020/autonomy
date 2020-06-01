@@ -4,3 +4,9 @@
 [submodule "src/perception/darknet_ros"]
 	path = src/perception/darknet_ros
 	url = git@github.com:SAVED-DSE-Project-TU-Delft-2020/darknet_ros.git
+[submodule "src/perception/train_yolo/darknet"]
+	path = src/perception/train_yolo/darknet
+	url = git@github.com:AlexeyAB/darknet.git
+[submodule "src/perception/train_yolo/Yolo-Annotation-Tool-New-"]
+	path = src/perception/train_yolo/Yolo-Annotation-Tool-New-
+	url = git@github.com:ManivannanMurugavel/Yolo-Annotation-Tool-New-.git

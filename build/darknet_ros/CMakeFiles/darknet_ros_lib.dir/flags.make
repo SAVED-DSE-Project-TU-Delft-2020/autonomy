@@ -3,13 +3,13 @@
 
 # compile C with /usr/lib/ccache/cc
 # compile CXX with /usr/lib/ccache/c++
-C_FLAGS = -Wall -Wno-unused-result -Wno-unknown-pragmas -Wno-unused-variable -Wfatal-errors -fPIC  -O3 -DNDEBUG -fPIC   -O4 -g
+C_FLAGS = -Wall -Wno-unused-result -Wno-unknown-pragmas -Wno-unused-variable -Wfatal-errors -fPIC  -fPIC   -O4 -g
 
 C_DEFINES = -DDARKNET_FILE_PATH=\"/home/pcampolucci/Desktop/autonomy/src/perception/darknet_ros/darknet\" -DGPU -DOPENCV -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"darknet_ros\" -Ddarknet_ros_lib_EXPORTS
 
 C_INCLUDES = -isystem /usr/include/opencv -I/home/pcampolucci/Desktop/autonomy/src/perception/darknet_ros/darknet/src -I/home/pcampolucci/Desktop/autonomy/src/perception/darknet_ros/darknet/include -I/home/pcampolucci/Desktop/autonomy/src/perception/darknet_ros/darknet_ros/include -I/home/pcampolucci/Desktop/autonomy/devel/.private/darknet_ros_msgs/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/local/cuda/include 
 
-CXX_FLAGS = -std=c++11  -O3 -DNDEBUG -fPIC   -O4 -g
+CXX_FLAGS = -std=c++11  -fPIC   -O4 -g
 
 CXX_DEFINES = -DDARKNET_FILE_PATH=\"/home/pcampolucci/Desktop/autonomy/src/perception/darknet_ros/darknet\" -DGPU -DOPENCV -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"darknet_ros\" -Ddarknet_ros_lib_EXPORTS
 
