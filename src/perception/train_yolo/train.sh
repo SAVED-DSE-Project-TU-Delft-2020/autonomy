@@ -1,6 +1,6 @@
 
 printf "======================================================================\n"
-printf "                        LABELING TOOL FOR YOLO                        \n"
+printf "                        TRAINING YOLO                                 \n"
 printf "======================================================================\n\n"
 
 printf "The tool trains YOLO with the given landing images for object detection\n\n"
