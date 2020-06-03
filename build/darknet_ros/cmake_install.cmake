@@ -1,8 +1,8 @@
-# Install script for directory: /home/pcampolucci/Desktop/autonomy/src/perception/darknet_ros/darknet_ros
+# Install script for directory: /home/pcampolucci/autonomy/src/perception/darknet_ros/darknet_ros
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/pcampolucci/Desktop/autonomy/install")
+  set(CMAKE_INSTALL_PREFIX "/home/pcampolucci/autonomy/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -49,98 +49,98 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/pcampolucci/Desktop/autonomy/install/_setup_util.py")
+   "/home/pcampolucci/autonomy/install/_setup_util.py")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/pcampolucci/Desktop/autonomy/install" TYPE PROGRAM FILES "/home/pcampolucci/Desktop/autonomy/build/darknet_ros/catkin_generated/installspace/_setup_util.py")
+file(INSTALL DESTINATION "/home/pcampolucci/autonomy/install" TYPE PROGRAM FILES "/home/pcampolucci/autonomy/build/darknet_ros/catkin_generated/installspace/_setup_util.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/pcampolucci/Desktop/autonomy/install/env.sh")
+   "/home/pcampolucci/autonomy/install/env.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/pcampolucci/Desktop/autonomy/install" TYPE PROGRAM FILES "/home/pcampolucci/Desktop/autonomy/build/darknet_ros/catkin_generated/installspace/env.sh")
+file(INSTALL DESTINATION "/home/pcampolucci/autonomy/install" TYPE PROGRAM FILES "/home/pcampolucci/autonomy/build/darknet_ros/catkin_generated/installspace/env.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/pcampolucci/Desktop/autonomy/install/setup.bash;/home/pcampolucci/Desktop/autonomy/install/local_setup.bash")
+   "/home/pcampolucci/autonomy/install/setup.bash;/home/pcampolucci/autonomy/install/local_setup.bash")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/pcampolucci/Desktop/autonomy/install" TYPE FILE FILES
-    "/home/pcampolucci/Desktop/autonomy/build/darknet_ros/catkin_generated/installspace/setup.bash"
-    "/home/pcampolucci/Desktop/autonomy/build/darknet_ros/catkin_generated/installspace/local_setup.bash"
+file(INSTALL DESTINATION "/home/pcampolucci/autonomy/install" TYPE FILE FILES
+    "/home/pcampolucci/autonomy/build/darknet_ros/catkin_generated/installspace/setup.bash"
+    "/home/pcampolucci/autonomy/build/darknet_ros/catkin_generated/installspace/local_setup.bash"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/pcampolucci/Desktop/autonomy/install/setup.sh;/home/pcampolucci/Desktop/autonomy/install/local_setup.sh")
+   "/home/pcampolucci/autonomy/install/setup.sh;/home/pcampolucci/autonomy/install/local_setup.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/pcampolucci/Desktop/autonomy/install" TYPE FILE FILES
-    "/home/pcampolucci/Desktop/autonomy/build/darknet_ros/catkin_generated/installspace/setup.sh"
-    "/home/pcampolucci/Desktop/autonomy/build/darknet_ros/catkin_generated/installspace/local_setup.sh"
+file(INSTALL DESTINATION "/home/pcampolucci/autonomy/install" TYPE FILE FILES
+    "/home/pcampolucci/autonomy/build/darknet_ros/catkin_generated/installspace/setup.sh"
+    "/home/pcampolucci/autonomy/build/darknet_ros/catkin_generated/installspace/local_setup.sh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/pcampolucci/Desktop/autonomy/install/setup.zsh;/home/pcampolucci/Desktop/autonomy/install/local_setup.zsh")
+   "/home/pcampolucci/autonomy/install/setup.zsh;/home/pcampolucci/autonomy/install/local_setup.zsh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/pcampolucci/Desktop/autonomy/install" TYPE FILE FILES
-    "/home/pcampolucci/Desktop/autonomy/build/darknet_ros/catkin_generated/installspace/setup.zsh"
-    "/home/pcampolucci/Desktop/autonomy/build/darknet_ros/catkin_generated/installspace/local_setup.zsh"
+file(INSTALL DESTINATION "/home/pcampolucci/autonomy/install" TYPE FILE FILES
+    "/home/pcampolucci/autonomy/build/darknet_ros/catkin_generated/installspace/setup.zsh"
+    "/home/pcampolucci/autonomy/build/darknet_ros/catkin_generated/installspace/local_setup.zsh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/pcampolucci/Desktop/autonomy/install/.rosinstall")
+   "/home/pcampolucci/autonomy/install/.rosinstall")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/pcampolucci/Desktop/autonomy/install" TYPE FILE FILES "/home/pcampolucci/Desktop/autonomy/build/darknet_ros/catkin_generated/installspace/.rosinstall")
+file(INSTALL DESTINATION "/home/pcampolucci/autonomy/install" TYPE FILE FILES "/home/pcampolucci/autonomy/build/darknet_ros/catkin_generated/installspace/.rosinstall")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/pcampolucci/Desktop/autonomy/build/darknet_ros/catkin_generated/installspace/darknet_ros.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/pcampolucci/autonomy/build/darknet_ros/catkin_generated/installspace/darknet_ros.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/darknet_ros/cmake" TYPE FILE FILES
-    "/home/pcampolucci/Desktop/autonomy/build/darknet_ros/catkin_generated/installspace/darknet_rosConfig.cmake"
-    "/home/pcampolucci/Desktop/autonomy/build/darknet_ros/catkin_generated/installspace/darknet_rosConfig-version.cmake"
+    "/home/pcampolucci/autonomy/build/darknet_ros/catkin_generated/installspace/darknet_rosConfig.cmake"
+    "/home/pcampolucci/autonomy/build/darknet_ros/catkin_generated/installspace/darknet_rosConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/darknet_ros" TYPE FILE FILES "/home/pcampolucci/Desktop/autonomy/src/perception/darknet_ros/darknet_ros/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/darknet_ros" TYPE FILE FILES "/home/pcampolucci/autonomy/src/perception/darknet_ros/darknet_ros/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -150,7 +150,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libdarknet_ros_lib.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/pcampolucci/Desktop/autonomy/devel/.private/darknet_ros/lib/libdarknet_ros_lib.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/pcampolucci/autonomy/devel/.private/darknet_ros/lib/libdarknet_ros_lib.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libdarknet_ros_lib.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libdarknet_ros_lib.so")
     file(RPATH_CHANGE
@@ -170,12 +170,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/darknet_ros/darknet_ros"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/darknet_ros" TYPE EXECUTABLE FILES "/home/pcampolucci/Desktop/autonomy/devel/.private/darknet_ros/lib/darknet_ros/darknet_ros")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/darknet_ros" TYPE EXECUTABLE FILES "/home/pcampolucci/autonomy/devel/.private/darknet_ros/lib/darknet_ros/darknet_ros")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/darknet_ros/darknet_ros" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/darknet_ros/darknet_ros")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/darknet_ros/darknet_ros"
-         OLD_RPATH "/usr/local/cuda/lib64:/home/pcampolucci/Desktop/autonomy/devel/.private/darknet_ros/lib:/opt/ros/melodic/lib:"
+         OLD_RPATH "/usr/local/cuda/lib64:/home/pcampolucci/autonomy/devel/.private/darknet_ros/lib:/opt/ros/melodic/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/darknet_ros/darknet_ros")
@@ -184,20 +184,20 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/darknet_ros" TYPE DIRECTORY FILES "/home/pcampolucci/Desktop/autonomy/src/perception/darknet_ros/darknet_ros/include/darknet_ros/" FILES_MATCHING REGEX "/[^/]*\\.h$")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/darknet_ros" TYPE DIRECTORY FILES "/home/pcampolucci/autonomy/src/perception/darknet_ros/darknet_ros/include/darknet_ros/" FILES_MATCHING REGEX "/[^/]*\\.h$")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/darknet_ros" TYPE DIRECTORY FILES
-    "/home/pcampolucci/Desktop/autonomy/src/perception/darknet_ros/darknet_ros/config"
-    "/home/pcampolucci/Desktop/autonomy/src/perception/darknet_ros/darknet_ros/launch"
-    "/home/pcampolucci/Desktop/autonomy/src/perception/darknet_ros/darknet_ros/yolo_network_config"
+    "/home/pcampolucci/autonomy/src/perception/darknet_ros/darknet_ros/config"
+    "/home/pcampolucci/autonomy/src/perception/darknet_ros/darknet_ros/launch"
+    "/home/pcampolucci/autonomy/src/perception/darknet_ros/darknet_ros/yolo_network_config"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/pcampolucci/Desktop/autonomy/build/darknet_ros/gtest/cmake_install.cmake")
+  include("/home/pcampolucci/autonomy/build/darknet_ros/gtest/cmake_install.cmake")
 
 endif()
 
@@ -209,5 +209,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/pcampolucci/Desktop/autonomy/build/darknet_ros/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/pcampolucci/autonomy/build/darknet_ros/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

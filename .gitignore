@@ -1,3 +1,4 @@
 venv/
 src/perception/video_to_ros/rosbags/*
 src/perception/video_to_ros/videos/*
+src/perception/validation/performance_record/plot_single_record/*

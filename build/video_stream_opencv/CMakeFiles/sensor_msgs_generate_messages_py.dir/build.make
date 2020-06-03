@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pcampolucci/Desktop/autonomy/src/perception/video_to_ros/video_stream_opencv
+CMAKE_SOURCE_DIR = /home/pcampolucci/autonomy/src/perception/video_to_ros/video_stream_opencv
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pcampolucci/Desktop/autonomy/build/video_stream_opencv
+CMAKE_BINARY_DIR = /home/pcampolucci/autonomy/build/video_stream_opencv
 
 # Utility rule file for sensor_msgs_generate_messages_py.
 
@@ -67,6 +67,6 @@ CMakeFiles/sensor_msgs_generate_messages_py.dir/clean:
 .PHONY : CMakeFiles/sensor_msgs_generate_messages_py.dir/clean
 
 CMakeFiles/sensor_msgs_generate_messages_py.dir/depend:
-	cd /home/pcampolucci/Desktop/autonomy/build/video_stream_opencv && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pcampolucci/Desktop/autonomy/src/perception/video_to_ros/video_stream_opencv /home/pcampolucci/Desktop/autonomy/src/perception/video_to_ros/video_stream_opencv /home/pcampolucci/Desktop/autonomy/build/video_stream_opencv /home/pcampolucci/Desktop/autonomy/build/video_stream_opencv /home/pcampolucci/Desktop/autonomy/build/video_stream_opencv/CMakeFiles/sensor_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/pcampolucci/autonomy/build/video_stream_opencv && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pcampolucci/autonomy/src/perception/video_to_ros/video_stream_opencv /home/pcampolucci/autonomy/src/perception/video_to_ros/video_stream_opencv /home/pcampolucci/autonomy/build/video_stream_opencv /home/pcampolucci/autonomy/build/video_stream_opencv /home/pcampolucci/autonomy/build/video_stream_opencv/CMakeFiles/sensor_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/sensor_msgs_generate_messages_py.dir/depend
 

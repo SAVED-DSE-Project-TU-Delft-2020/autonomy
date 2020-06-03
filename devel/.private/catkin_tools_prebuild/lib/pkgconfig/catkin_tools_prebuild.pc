@@ -1,4 +1,4 @@
-prefix=/home/pcampolucci/Desktop/autonomy/devel/.private/catkin_tools_prebuild
+prefix=/home/pcampolucci/autonomy/devel/.private/catkin_tools_prebuild
 
 Name: catkin_tools_prebuild
 Description: Description of catkin_tools_prebuild

@@ -1,4 +1,4 @@
-prefix=/home/pcampolucci/Desktop/autonomy/install
+prefix=/home/pcampolucci/autonomy/install
 
 Name: video_stream_opencv
 Description: Description of video_stream_opencv

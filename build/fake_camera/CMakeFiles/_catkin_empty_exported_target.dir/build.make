@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pcampolucci/Desktop/autonomy/src/fake_camera
+CMAKE_SOURCE_DIR = /home/pcampolucci/autonomy/src/fake_camera
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pcampolucci/Desktop/autonomy/build/fake_camera
+CMAKE_BINARY_DIR = /home/pcampolucci/autonomy/build/fake_camera
 
 # Utility rule file for _catkin_empty_exported_target.
 
@@ -67,6 +67,6 @@ CMakeFiles/_catkin_empty_exported_target.dir/clean:
 .PHONY : CMakeFiles/_catkin_empty_exported_target.dir/clean
 
 CMakeFiles/_catkin_empty_exported_target.dir/depend:
-	cd /home/pcampolucci/Desktop/autonomy/build/fake_camera && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pcampolucci/Desktop/autonomy/src/fake_camera /home/pcampolucci/Desktop/autonomy/src/fake_camera /home/pcampolucci/Desktop/autonomy/build/fake_camera /home/pcampolucci/Desktop/autonomy/build/fake_camera /home/pcampolucci/Desktop/autonomy/build/fake_camera/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/pcampolucci/autonomy/build/fake_camera && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pcampolucci/autonomy/src/fake_camera /home/pcampolucci/autonomy/src/fake_camera /home/pcampolucci/autonomy/build/fake_camera /home/pcampolucci/autonomy/build/fake_camera /home/pcampolucci/autonomy/build/fake_camera/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/_catkin_empty_exported_target.dir/depend
 

@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/video_stream_opencv.dir/src/video_stream.cpp.o"
-  "/home/pcampolucci/Desktop/autonomy/devel/.private/video_stream_opencv/lib/libvideo_stream_opencv.pdb"
-  "/home/pcampolucci/Desktop/autonomy/devel/.private/video_stream_opencv/lib/libvideo_stream_opencv.so"
+  "/home/pcampolucci/autonomy/devel/.private/video_stream_opencv/lib/libvideo_stream_opencv.pdb"
+  "/home/pcampolucci/autonomy/devel/.private/video_stream_opencv/lib/libvideo_stream_opencv.so"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -4,13 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/usr/src/googletest/googletest/src/gtest-all.cc" "/home/pcampolucci/Desktop/autonomy/build/darknet_ros/gtest/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o"
+  "/usr/src/googletest/googletest/src/gtest-all.cc" "/home/pcampolucci/autonomy/build/darknet_ros/gtest/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_CXX
-  "DARKNET_FILE_PATH=\"/home/pcampolucci/Desktop/autonomy/src/perception/darknet_ros/darknet\""
+  "DARKNET_FILE_PATH=\"/home/pcampolucci/autonomy/src/perception/darknet_ros/darknet\""
   "GPU"
   "GTEST_CREATE_SHARED_LIBRARY=1"
   )

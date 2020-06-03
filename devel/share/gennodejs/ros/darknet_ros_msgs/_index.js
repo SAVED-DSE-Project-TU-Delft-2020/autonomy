@@ -1,1 +1,1 @@
-/home/pcampolucci/Desktop/autonomy/devel/.private/darknet_ros_msgs/share/gennodejs/ros/darknet_ros_msgs/_index.js
+/home/pcampolucci/autonomy/devel/.private/darknet_ros_msgs/share/gennodejs/ros/darknet_ros_msgs/_index.js

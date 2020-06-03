@@ -5,7 +5,7 @@ printf "======================================================================\n
 
 printf "The tool trains YOLO with the given landing images for object detection\n\n"
 
-printf "Training Specs:\n*data: landing figures in /data/landing\n*yolo type: yolov3 tiny in /cfg\n\n"
+printf "Training Specs:\n* data: landing figures in /data/landing\n* yolo type: yolov3 tiny in /cfg\n\n"
 
 read -p $'Press [ENTER] to start the training process (might take a while)\n\n' foo
 

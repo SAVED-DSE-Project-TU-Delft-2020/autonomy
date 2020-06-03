@@ -1,4 +1,4 @@
-prefix=/home/pcampolucci/Desktop/autonomy/install
+prefix=/home/pcampolucci/autonomy/install
 
 Name: fake_camera
 Description: Description of fake_camera

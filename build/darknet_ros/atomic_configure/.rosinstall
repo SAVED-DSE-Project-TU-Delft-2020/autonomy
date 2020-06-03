@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /home/pcampolucci/Desktop/autonomy/devel/.private/darknet_ros/setup.sh
+    local-name: /home/pcampolucci/autonomy/devel/.private/darknet_ros/setup.sh

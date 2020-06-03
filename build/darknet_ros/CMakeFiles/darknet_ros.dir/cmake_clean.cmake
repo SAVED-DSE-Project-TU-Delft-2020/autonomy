@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/darknet_ros.dir/src/yolo_object_detector_node.cpp.o"
-  "/home/pcampolucci/Desktop/autonomy/devel/.private/darknet_ros/lib/darknet_ros/darknet_ros.pdb"
-  "/home/pcampolucci/Desktop/autonomy/devel/.private/darknet_ros/lib/darknet_ros/darknet_ros"
+  "/home/pcampolucci/autonomy/devel/.private/darknet_ros/lib/darknet_ros/darknet_ros.pdb"
+  "/home/pcampolucci/autonomy/devel/.private/darknet_ros/lib/darknet_ros/darknet_ros"
 )
 
 # Per-language clean rules from dependency scanning.

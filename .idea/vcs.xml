@@ -2,5 +2,9 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/perception/darknet_ros" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/perception/darknet_ros/darknet" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/perception/train_yolo/Yolo-Annotation-Tool-New-" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/perception/train_yolo/darknet" vcs="Git" />
   </component>
 </project>

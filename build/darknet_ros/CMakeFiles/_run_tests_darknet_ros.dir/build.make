@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pcampolucci/Desktop/autonomy/src/perception/darknet_ros/darknet_ros
+CMAKE_SOURCE_DIR = /home/pcampolucci/autonomy/src/perception/darknet_ros/darknet_ros
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pcampolucci/Desktop/autonomy/build/darknet_ros
+CMAKE_BINARY_DIR = /home/pcampolucci/autonomy/build/darknet_ros
 
 # Utility rule file for _run_tests_darknet_ros.
 
@@ -67,6 +67,6 @@ CMakeFiles/_run_tests_darknet_ros.dir/clean:
 .PHONY : CMakeFiles/_run_tests_darknet_ros.dir/clean
 
 CMakeFiles/_run_tests_darknet_ros.dir/depend:
-	cd /home/pcampolucci/Desktop/autonomy/build/darknet_ros && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pcampolucci/Desktop/autonomy/src/perception/darknet_ros/darknet_ros /home/pcampolucci/Desktop/autonomy/src/perception/darknet_ros/darknet_ros /home/pcampolucci/Desktop/autonomy/build/darknet_ros /home/pcampolucci/Desktop/autonomy/build/darknet_ros /home/pcampolucci/Desktop/autonomy/build/darknet_ros/CMakeFiles/_run_tests_darknet_ros.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/pcampolucci/autonomy/build/darknet_ros && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pcampolucci/autonomy/src/perception/darknet_ros/darknet_ros /home/pcampolucci/autonomy/src/perception/darknet_ros/darknet_ros /home/pcampolucci/autonomy/build/darknet_ros /home/pcampolucci/autonomy/build/darknet_ros /home/pcampolucci/autonomy/build/darknet_ros/CMakeFiles/_run_tests_darknet_ros.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/_run_tests_darknet_ros.dir/depend
 

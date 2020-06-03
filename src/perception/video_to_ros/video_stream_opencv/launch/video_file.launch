@@ -4,6 +4,7 @@
    <!--Enter custom stats-->
   <arg name="video_name" default='test.mp4' />
   <arg name="fps" default='10' />
+  <arg name="buffer_queue_size" default='1' />
 
 
    <!-- launch video stream -->
@@ -14,7 +15,7 @@
         <!-- wget http://techslides.com/demos/sample-videos/small.mp4 -O /tmp/small.mp4 -->
         <arg name="video_stream_provider" value="$(arg video_name)" />
         <!-- set buffer queue size of frame capturing to -->
-        <arg name="buffer_queue_size" value="1000" />
+        <arg name="buffer_queue_size" value="1" />
         <!-- throttling the querying of frames to -->
         <arg name="fps" value="$(arg fps)"/>
         <!-- setting frame_id -->
@@ -30,7 +31,7 @@
         <!-- start frame of video -->
         <arg name="start_frame" default="0"/>
         <!-- stop frame of video, -1 means the end of video -->
-        <arg name="stop_frame" default="1000"/>
+        <arg name="stop_frame" default="10000"/>
         <!-- visualize on an image_view window the stream generated -->
         <arg name="visualize" value="true" />
    </include>

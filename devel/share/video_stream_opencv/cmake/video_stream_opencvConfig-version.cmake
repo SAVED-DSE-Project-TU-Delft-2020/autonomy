@@ -1,1 +1,1 @@
-/home/pcampolucci/Desktop/autonomy/devel/.private/video_stream_opencv/share/video_stream_opencv/cmake/video_stream_opencvConfig-version.cmake
+/home/pcampolucci/autonomy/devel/.private/video_stream_opencv/share/video_stream_opencv/cmake/video_stream_opencvConfig-version.cmake

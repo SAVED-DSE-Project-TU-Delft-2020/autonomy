@@ -1,1 +1,1 @@
-/home/pcampolucci/Desktop/autonomy/devel/.private/darknet_ros_msgs/share/roseus/ros/darknet_ros_msgs/msg/CheckForObjectsGoal.l
+/home/pcampolucci/autonomy/devel/.private/darknet_ros_msgs/share/roseus/ros/darknet_ros_msgs/msg/CheckForObjectsGoal.l

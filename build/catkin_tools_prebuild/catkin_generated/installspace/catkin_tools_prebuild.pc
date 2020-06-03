@@ -1,4 +1,4 @@
-prefix=/home/pcampolucci/Desktop/autonomy/install
+prefix=/home/pcampolucci/autonomy/install
 
 Name: catkin_tools_prebuild
 Description: Description of catkin_tools_prebuild

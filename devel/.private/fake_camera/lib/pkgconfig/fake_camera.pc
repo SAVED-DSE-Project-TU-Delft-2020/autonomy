@@ -1,4 +1,4 @@
-prefix=/home/pcampolucci/Desktop/autonomy/devel/.private/fake_camera
+prefix=/home/pcampolucci/autonomy/devel/.private/fake_camera
 
 Name: fake_camera
 Description: Description of fake_camera

@@ -1,6 +1,6 @@
-devel_space: /home/pcampolucci/Desktop/autonomy/devel
+devel_space: /home/pcampolucci/autonomy/devel
 install: false
-install_space: /home/pcampolucci/Desktop/autonomy/install
+install_space: /home/pcampolucci/autonomy/install
 profile: default
-source_space: /home/pcampolucci/Desktop/autonomy/src
-workspace: /home/pcampolucci/Desktop/autonomy
+source_space: /home/pcampolucci/autonomy/src
+workspace: /home/pcampolucci/autonomy

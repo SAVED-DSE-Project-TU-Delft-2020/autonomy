@@ -1,8 +1,8 @@
-prefix=/home/pcampolucci/Desktop/autonomy/devel/.private/video_stream_opencv
+prefix=/home/pcampolucci/autonomy/devel/.private/video_stream_opencv
 
 Name: video_stream_opencv
 Description: Description of video_stream_opencv
 Version: 1.1.5
-Cflags: -I/home/pcampolucci/Desktop/autonomy/devel/.private/video_stream_opencv/include
+Cflags: -I/home/pcampolucci/autonomy/devel/.private/video_stream_opencv/include
 Libs: -L${prefix}/lib 
 Requires: 

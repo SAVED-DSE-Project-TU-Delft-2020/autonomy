@@ -67,14 +67,14 @@ set(darknet_ros_msgs_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(darknet_ros_msgs_SOURCE_PREFIX /home/pcampolucci/Desktop/autonomy/src/perception/darknet_ros/darknet_ros_msgs)
-  set(darknet_ros_msgs_DEVEL_PREFIX /home/pcampolucci/Desktop/autonomy/devel/.private/darknet_ros_msgs)
+  set(darknet_ros_msgs_SOURCE_PREFIX /home/pcampolucci/autonomy/src/perception/darknet_ros/darknet_ros_msgs)
+  set(darknet_ros_msgs_DEVEL_PREFIX /home/pcampolucci/autonomy/devel/.private/darknet_ros_msgs)
   set(darknet_ros_msgs_INSTALL_PREFIX "")
   set(darknet_ros_msgs_PREFIX ${darknet_ros_msgs_DEVEL_PREFIX})
 else()
   set(darknet_ros_msgs_SOURCE_PREFIX "")
   set(darknet_ros_msgs_DEVEL_PREFIX "")
-  set(darknet_ros_msgs_INSTALL_PREFIX /home/pcampolucci/Desktop/autonomy/install)
+  set(darknet_ros_msgs_INSTALL_PREFIX /home/pcampolucci/autonomy/install)
   set(darknet_ros_msgs_PREFIX ${darknet_ros_msgs_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/pcampolucci/Desktop/autonomy/install/lib;/home/pcampolucci/Desktop/autonomy/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /home/pcampolucci/autonomy/install/lib;/home/pcampolucci/autonomy/devel/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

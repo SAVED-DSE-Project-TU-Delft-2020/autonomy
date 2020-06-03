@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pcampolucci/Desktop/autonomy/src/perception/darknet_ros/darknet_ros
+CMAKE_SOURCE_DIR = /home/pcampolucci/autonomy/src/perception/darknet_ros/darknet_ros
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pcampolucci/Desktop/autonomy/build/darknet_ros
+CMAKE_BINARY_DIR = /home/pcampolucci/autonomy/build/darknet_ros
 
 # Utility rule file for clean_test_results_darknet_ros.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/pcampolucci/Desktop/autonomy/build/darknet_ros
 include CMakeFiles/clean_test_results_darknet_ros.dir/progress.make
 
 CMakeFiles/clean_test_results_darknet_ros:
-	/usr/bin/python2 /opt/ros/melodic/share/catkin/cmake/test/remove_test_results.py /home/pcampolucci/Desktop/autonomy/build/darknet_ros/test_results/darknet_ros
+	/usr/bin/python2 /opt/ros/melodic/share/catkin/cmake/test/remove_test_results.py /home/pcampolucci/autonomy/build/darknet_ros/test_results/darknet_ros
 
 clean_test_results_darknet_ros: CMakeFiles/clean_test_results_darknet_ros
 clean_test_results_darknet_ros: CMakeFiles/clean_test_results_darknet_ros.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/clean_test_results_darknet_ros.dir/clean:
 .PHONY : CMakeFiles/clean_test_results_darknet_ros.dir/clean
 
 CMakeFiles/clean_test_results_darknet_ros.dir/depend:
-	cd /home/pcampolucci/Desktop/autonomy/build/darknet_ros && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pcampolucci/Desktop/autonomy/src/perception/darknet_ros/darknet_ros /home/pcampolucci/Desktop/autonomy/src/perception/darknet_ros/darknet_ros /home/pcampolucci/Desktop/autonomy/build/darknet_ros /home/pcampolucci/Desktop/autonomy/build/darknet_ros /home/pcampolucci/Desktop/autonomy/build/darknet_ros/CMakeFiles/clean_test_results_darknet_ros.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/pcampolucci/autonomy/build/darknet_ros && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pcampolucci/autonomy/src/perception/darknet_ros/darknet_ros /home/pcampolucci/autonomy/src/perception/darknet_ros/darknet_ros /home/pcampolucci/autonomy/build/darknet_ros /home/pcampolucci/autonomy/build/darknet_ros /home/pcampolucci/autonomy/build/darknet_ros/CMakeFiles/clean_test_results_darknet_ros.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/clean_test_results_darknet_ros.dir/depend
 

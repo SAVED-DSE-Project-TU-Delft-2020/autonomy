@@ -1,15 +1,15 @@
 file(REMOVE_RECURSE
   "CMakeFiles/darknet_ros_msgs_generate_messages_nodejs"
-  "/home/pcampolucci/Desktop/autonomy/devel/.private/darknet_ros_msgs/share/gennodejs/ros/darknet_ros_msgs/msg/ObjectCount.js"
-  "/home/pcampolucci/Desktop/autonomy/devel/.private/darknet_ros_msgs/share/gennodejs/ros/darknet_ros_msgs/msg/BoundingBox.js"
-  "/home/pcampolucci/Desktop/autonomy/devel/.private/darknet_ros_msgs/share/gennodejs/ros/darknet_ros_msgs/msg/CheckForObjectsActionGoal.js"
-  "/home/pcampolucci/Desktop/autonomy/devel/.private/darknet_ros_msgs/share/gennodejs/ros/darknet_ros_msgs/msg/BoundingBoxes.js"
-  "/home/pcampolucci/Desktop/autonomy/devel/.private/darknet_ros_msgs/share/gennodejs/ros/darknet_ros_msgs/msg/CheckForObjectsActionFeedback.js"
-  "/home/pcampolucci/Desktop/autonomy/devel/.private/darknet_ros_msgs/share/gennodejs/ros/darknet_ros_msgs/msg/CheckForObjectsAction.js"
-  "/home/pcampolucci/Desktop/autonomy/devel/.private/darknet_ros_msgs/share/gennodejs/ros/darknet_ros_msgs/msg/CheckForObjectsFeedback.js"
-  "/home/pcampolucci/Desktop/autonomy/devel/.private/darknet_ros_msgs/share/gennodejs/ros/darknet_ros_msgs/msg/CheckForObjectsResult.js"
-  "/home/pcampolucci/Desktop/autonomy/devel/.private/darknet_ros_msgs/share/gennodejs/ros/darknet_ros_msgs/msg/CheckForObjectsActionResult.js"
-  "/home/pcampolucci/Desktop/autonomy/devel/.private/darknet_ros_msgs/share/gennodejs/ros/darknet_ros_msgs/msg/CheckForObjectsGoal.js"
+  "/home/pcampolucci/autonomy/devel/.private/darknet_ros_msgs/share/gennodejs/ros/darknet_ros_msgs/msg/CheckForObjectsGoal.js"
+  "/home/pcampolucci/autonomy/devel/.private/darknet_ros_msgs/share/gennodejs/ros/darknet_ros_msgs/msg/CheckForObjectsFeedback.js"
+  "/home/pcampolucci/autonomy/devel/.private/darknet_ros_msgs/share/gennodejs/ros/darknet_ros_msgs/msg/ObjectCount.js"
+  "/home/pcampolucci/autonomy/devel/.private/darknet_ros_msgs/share/gennodejs/ros/darknet_ros_msgs/msg/CheckForObjectsAction.js"
+  "/home/pcampolucci/autonomy/devel/.private/darknet_ros_msgs/share/gennodejs/ros/darknet_ros_msgs/msg/CheckForObjectsActionResult.js"
+  "/home/pcampolucci/autonomy/devel/.private/darknet_ros_msgs/share/gennodejs/ros/darknet_ros_msgs/msg/BoundingBox.js"
+  "/home/pcampolucci/autonomy/devel/.private/darknet_ros_msgs/share/gennodejs/ros/darknet_ros_msgs/msg/CheckForObjectsResult.js"
+  "/home/pcampolucci/autonomy/devel/.private/darknet_ros_msgs/share/gennodejs/ros/darknet_ros_msgs/msg/CheckForObjectsActionFeedback.js"
+  "/home/pcampolucci/autonomy/devel/.private/darknet_ros_msgs/share/gennodejs/ros/darknet_ros_msgs/msg/CheckForObjectsActionGoal.js"
+  "/home/pcampolucci/autonomy/devel/.private/darknet_ros_msgs/share/gennodejs/ros/darknet_ros_msgs/msg/BoundingBoxes.js"
 )
 
 # Per-language clean rules from dependency scanning.

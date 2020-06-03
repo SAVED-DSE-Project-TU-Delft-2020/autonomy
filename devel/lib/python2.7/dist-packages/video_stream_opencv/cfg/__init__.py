@@ -1,1 +1,1 @@
-/home/pcampolucci/Desktop/autonomy/devel/.private/video_stream_opencv/lib/python2.7/dist-packages/video_stream_opencv/cfg/__init__.py
+/home/pcampolucci/autonomy/devel/.private/video_stream_opencv/lib/python2.7/dist-packages/video_stream_opencv/cfg/__init__.py

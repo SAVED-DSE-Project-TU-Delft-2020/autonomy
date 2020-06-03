@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/pcampolucci/Desktop/autonomy/src/perception/video_to_ros/video_stream_opencv/src/video_stream.cpp" "/home/pcampolucci/Desktop/autonomy/build/video_stream_opencv/CMakeFiles/video_stream_opencv.dir/src/video_stream.cpp.o"
+  "/home/pcampolucci/autonomy/src/perception/video_to_ros/video_stream_opencv/src/video_stream.cpp" "/home/pcampolucci/autonomy/build/video_stream_opencv/CMakeFiles/video_stream_opencv.dir/src/video_stream.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -17,7 +17,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/pcampolucci/Desktop/autonomy/devel/.private/video_stream_opencv/include"
+  "/home/pcampolucci/autonomy/devel/.private/video_stream_opencv/include"
   "/opt/ros/melodic/include"
   "/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   "/usr/include/opencv"
