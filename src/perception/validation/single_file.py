@@ -6,7 +6,6 @@ Title: Class for information extrapolation from csv file after yolo run
 import csv
 import numpy as np
 import matplotlib.pyplot as plt
-from matplotlib import rc
 import os
 
 # debugging
@@ -37,7 +36,7 @@ class Performance:
 
     def get_frames(self):
 
-        with open(self.path + self.fo, mode='r') as csv_fo_file:
+        with open(self.path + "data/" + self.fo, mode='r') as csv_fo_file:
             csv_fo = csv.DictReader(csv_fo_file)
 
             frame_n = []
@@ -68,7 +67,7 @@ class Performance:
 
     def get_info(self):
 
-        with open(self.path + self.file, mode='r') as csv_file:
+        with open(self.path + "data/" + self.file, mode='r') as csv_file:
             csv_reader = csv.DictReader(csv_file)
 
             video_frames = []
@@ -112,12 +111,12 @@ class Performance:
         plt.tight_layout()
         plt.subplots_adjust(top=0.9)
         plt.suptitle(f"Performance Report for {self.file} - ACC = [{self.get_frames()[0]}%]")
-        plt.savefig(self.path + "plot_single_record/" + self.file + ".pdf")
+        plt.savefig(self.path + "single_video_plots/" + self.file + ".pdf")
 
 
 # debugging
 if DEBUG:
-    path_deb = os.path.dirname(os.path.realpath(__file__)) + "/performance_record/"
+    path_deb = os.path.dirname(os.path.realpath(__file__)) + "/performance_record/performance_data/"
     file = "close-512-30-bb.csv"
     test = Performance(file, path_deb)
     print(test.plot_report())

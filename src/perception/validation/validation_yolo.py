@@ -17,16 +17,16 @@ path = os.path.dirname(os.path.realpath(__file__)) + "/performance_record/"
 video_name = input("\nVideo name: ")
 fps = input("\nFPS: ")  # frames per second
 info = "bb"
-write_to_all = False
+write_to_all = True
 
-bb_files = [f for f in listdir(path) if f[-9:] == fps + "-" + info + ".csv" and f[:len(f)-14] == video_name]
+bb_files = [f for f in listdir(path + "data/") if f[-9:] == fps + "-" + info + ".csv" and f[:len(f)-14] == video_name]
 
 if len(bb_files) == 0:
     print("[ERROR]: No file found")
 
 else:
 
-    accuracy_txt = open(path + "one_for_all/all.txt", "a")
+    accuracy_txt = open(path + "accuracy/all.txt", "a")
 
     perform_lst = []
     len_lst = []
@@ -74,5 +74,5 @@ else:
             plt.suptitle(f"Resolution Investigation for {perform_lst[0].video_name} recording at {fps} fps")
             fig.legend(loc="lower right", framealpha=0.7, fontsize="small", bbox_to_anchor=(1.0, 0.7))
 
-        plt.savefig(path + "full_reports/full_report_" + perform_lst[0].video_name + "_" + fps + ".pdf")
+        plt.savefig(path + "full_video_plots/full_report_" + perform_lst[0].video_name + "_" + fps + ".pdf")
 
