@@ -1,0 +1,12 @@
+[31m[1mCMake Error[0m at /usr/share/cmake-3.10/Modules/FindCUDA.cmake:1801 (add_library):
+  Cannot find source file:
+
+    /home/pcampolucci/autonomy/src/perception/darknet_ros/darknet/src/activation_layer.c
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+[36mCall Stack (most recent call first):[0m
+  CMakeLists.txt:145 (cuda_add_library)
+
+
+make: *** [cmake_check_build_system] Error 1
