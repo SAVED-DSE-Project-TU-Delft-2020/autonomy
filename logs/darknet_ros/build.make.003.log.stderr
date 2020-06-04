@@ -1,0 +1,8 @@
+CMakeFiles/darknet_ros.dir/src/yolo_object_detector_node.cpp.o: In function `main':
+/home/pcampolucci/autonomy/src/perception/darknet_ros/darknet_ros/src/yolo_object_detector_node.cpp:15: undefined reference to `darknet_ros::YoloObjectDetector::YoloObjectDetector(ros::NodeHandle)'
+/home/pcampolucci/autonomy/src/perception/darknet_ros/darknet_ros/src/yolo_object_detector_node.cpp:15: undefined reference to `darknet_ros::YoloObjectDetector::~YoloObjectDetector()'
+/home/pcampolucci/autonomy/src/perception/darknet_ros/darknet_ros/src/yolo_object_detector_node.cpp:15: undefined reference to `darknet_ros::YoloObjectDetector::~YoloObjectDetector()'
+collect2: error: ld returned 1 exit status
+make[2]: *** [/home/pcampolucci/autonomy/devel/.private/darknet_ros/lib/darknet_ros/darknet_ros] Error 1
+make[1]: *** [CMakeFiles/darknet_ros.dir/all] Error 2
+make: *** [all] Error 2
