@@ -1,0 +1,16 @@
+/home/pcampolucci/autonomy/src/state_estimation/sitl_gazebo/src/gazebo_geotagged_images_plugin.cpp: In member function ‘void gazebo::GeotaggedImagesPlugin::_send_capture_status(sockaddr*)’:
+/home/pcampolucci/autonomy/src/state_estimation/sitl_gazebo/src/gazebo_geotagged_images_plugin.cpp:739:22: error: too many arguments to function ‘uint16_t mavlink_msg_camera_capture_status_pack_chan(uint8_t, uint8_t, uint8_t, mavlink_message_t*, uint32_t, uint8_t, uint8_t, float, uint32_t, float)’
+         _imageCounter);                         // total number of images
+                      ^
+In file included from /opt/ros/melodic/include/mavlink/v2.0/common/common.h:2314:0,
+                 from /opt/ros/melodic/include/mavlink/v2.0/common/mavlink.h:32,
+                 from /home/pcampolucci/autonomy/src/state_estimation/sitl_gazebo/include/gazebo_geotagged_images_plugin.h:21,
+                 from /home/pcampolucci/autonomy/src/state_estimation/sitl_gazebo/src/gazebo_geotagged_images_plugin.cpp:18:
+/opt/ros/melodic/include/mavlink/v2.0/common/./mavlink_msg_camera_capture_status.h:110:24: note: declared here
+ static inline uint16_t mavlink_msg_camera_capture_status_pack_chan(uint8_t system_id, uint8_t component_id, uint8_t chan,
+                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+At global scope:
+cc1plus: warning: unrecognized command line option ‘-Wno-address-of-packed-member’
+make[2]: *** [CMakeFiles/gazebo_geotagged_images_plugin.dir/src/gazebo_geotagged_images_plugin.cpp.o] Error 1
+make[1]: *** [CMakeFiles/gazebo_geotagged_images_plugin.dir/all] Error 2
+make: *** [all] Error 2

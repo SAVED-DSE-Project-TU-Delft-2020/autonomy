@@ -10,3 +10,6 @@
 [submodule "src/perception/train_yolo/darknet"]
 	path = src/perception/train_yolo/darknet
 	url = git@github.com:SAVED-DSE-Project-TU-Delft-2020/darknet.git
+[submodule "src/state_estimation/sitl_gazebo"]
+	path = src/state_estimation/sitl_gazebo
+	url = git@github.com:PX4/sitl_gazebo.git

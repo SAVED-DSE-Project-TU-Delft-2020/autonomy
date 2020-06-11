@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/pcampolucci/autonomy/devel/.private/mavlink_sitl_gazebo/setup.sh
